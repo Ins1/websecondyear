@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit colors="true">
+	<testsuites>
+		<testsuite name="tests">
+			<directory>tests</directory>
+		</testsuite>
+	</testsuites>
+	<filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+        <file>tests/AdminTest.php</file>
+		 <file>tests/CatTest.php</file>
+		 <file>tests/DemoTest.php</file>
+		 <file>tests/DishesTest.php</file>
+		 <file>tests/ReservationTest.php</file>
+		 <file>tests/SpecialTest.php</file>
+        </whitelist>
+    </filter>
+</phpunit>
